@@ -1,0 +1,22 @@
+@media screen and (max-width:950px) {
+    main div:first-child {
+        text-align: center;
+    }
+
+    main :first-child p {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main :first-child p {
+        font-size: 25px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    main div:last-child {
+        width: 330px;
+    }
+}
